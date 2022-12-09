@@ -8,17 +8,13 @@ h1, h2, h3, h4, h5, h6 {
 	
 	}
 
-	h1 + p::first-letter {
+	.row p:first-letter {
 	font-weight: bold; 
 	font-size: 2.8em;
 	color: maroon ;
 	}
 
-	h3 + p::first-letter {
-		font-weight: bold; 
-		font-size: 2.8em;
-		color: maroon  ;
-		}
+
 	p {
 	text-align: left;
 	color: #000080;
@@ -59,7 +55,7 @@ h1, h2, h3, h4, h5, h6 {
 .feature,
 .page-intro,
 .article-intro,
-.footer-blurb,
+.footer-blurb 
 .small-print {
 	text-align: center;
 	color: #000080;
